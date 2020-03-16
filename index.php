@@ -23,6 +23,6 @@ $app->get('/hello/{name}', function (Request $request, Response $response, array
 });
 */
 //rutas clientes
-require '../src/route/clientes.php';
+require 'src/route/clientes.php';
 $app->run();
 ?>
