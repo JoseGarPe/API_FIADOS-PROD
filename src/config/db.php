@@ -1,9 +1,9 @@
 <?php
 class db{
-    private $dbHost ='localhost';
-    private $dbUser ='root';
-    private $dbPass ='';
-    private $dbName='api-fia2';
+    private $dbHost ='sql3.freemysqlhosting.net';
+    private $dbUser ='sql3328213';
+    private $dbPass ='6G2gDqSE6N';
+    private $dbName='sql3328213';
     
     public function conectDB(){
         $mysqlConnect = "mysql:host=$this->dbHost;dbname=$this->dbName";
